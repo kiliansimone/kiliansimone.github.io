@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Klarheit Grotesk";
+  src: url("fonts/KlarheitGrotesk-Medium.woff2") format("woff2"), url("fonts/KlarheitGrotesk-Medium.woff") format("woff"), url("fonts/KlarheitGrotesk-Medium.eot") format("eot");
+}
+body {
+  font-family: "Klarheit Grotesk", sans-serif;
+  -webkit-font-feature-settings: "ss03", "ss09", "ss10", "ss02";
+          font-feature-settings: "ss03", "ss09", "ss10", "ss02";
+  color: #0e0e0e;
+  font-size: 24px;
+  line-height: 1.3em;
+  font-weight: 500;
+  padding-top: 0.75em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  background-color: #F6F6F6;
+}
+
+::-moz-selection {
+  background: #ff7010;
+  color: white;
+}
+
+::selection {
+  background: #ff7010;
+  color: white;
+}
+
+body, a {
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+a:hover {
+  -webkit-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.18, 0.63, 0.43, 0.97);
+       -o-transition-timing-function: cubic-bezier(0.18, 0.63, 0.43, 0.97);
+          transition-timing-function: cubic-bezier(0.18, 0.63, 0.43, 0.97);
+  color: #ff7010;
+}
+a:visited {
+  color: #949494 !important;
+}
+
+.low {
+  color: #949494;
+}
+
+#introduction a:visited {
+  color: black !important;
+}
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 0.3em;
+  letter-spacing: -2.5px;
+  line-height: 125%;
+  font-size: 3.05em;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "ss02" 0;
+          font-feature-settings: "ss02" 0;
+}
+
+.impressum h1, .impressum h2 {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 1em;
+  letter-spacing: 0px;
+  margin-top: 2em;
+}
+
+.main {
+  margin-bottom: 1em;
+}
+
+.spacedown {
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+#introduction {
+  width: 17em;
+  max-width: 85%;
+}
+
+#work {
+  margin-top: 50vh;
+  line-height: 145%;
+}
+
+#work p {
+  margin-top: 0.125em;
+}
+
+#work .listing {
+  line-height: 137.5%;
+}
+
+#imprint {
+  margin-top: 50vh;
+}
+#imprint a {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.radial-gradient {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.impressum {
+  width: 90%;
+  max-width: 600px .impressum h1;
+  max-width-margin-top: 2em;
+}
+
+@media only screen and (max-width: 700px), only screen and (max-height: 575px) {
+  body {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-weight: 500;
+  }
+
+  body {
+    padding-top: 2em;
+    padding-left: 1.5em;
+  }
+
+  #work {
+    font-size: 14px;
+    margin-top: 35vh;
+  }
+
+  #imprint {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-height: 400px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #recentwork {
+    bottom: 5em;
+  }
+
+  #credit {
+    bottom: 1.5em;
+    left: 1.5em;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0e0e0e;
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+  a:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  #introduction a:visited {
+    color: white !important;
+  }
+
+  .low {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  #imprint a {
+    color: rgba(255, 255, 255, 0.3) !important;
+  }
+}
