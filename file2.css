@@ -50,7 +50,7 @@ a:visited {
 }
 
 .low {
-  color: #949494;
+  color: #a5a5a5; /* Etwas heller als #949494 */
 }
 
 #introduction a:visited {
@@ -93,7 +93,7 @@ h1 {
 #work {
   margin-top: 40vh;
   line-height: 145%;
-  color: #777;
+  color: #888;
 }
 
 #work p {
