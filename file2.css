@@ -37,6 +37,14 @@ img {
     margin: 0 auto;   /* Zentriert das Bild horizontal */
 }
 
+.big {
+    max-width: 120%; /* Macht das Bild größer */
+}
+
+.small {
+    max-width: 50%; /* Macht das Bild kleiner */
+}
+
 
 a {
   text-decoration: underline;
