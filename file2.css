@@ -46,10 +46,12 @@ img {
 
 .big {
     max-width: 120%;
+  float: left;
 }
 
 .small {
     max-width: 70%;
+  float: left;
 }
 
 
