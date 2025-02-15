@@ -94,7 +94,8 @@ h1 {
 #work {
   margin-top: 35vh;
   line-height: 145%;
-  color: #999;
+  /* color: #999; */
+  color: rgba(0, 0, 0, 0.8);
 }
 
 #work p {
