@@ -31,7 +31,7 @@ body, a {
 }
 
 img {
-    max-width: 97%;  /* Bild passt sich an 90% der Breite des Containers an */
+    max-width: 100%;  /* Bild passt sich an 90% der Breite des Containers an */
     height: auto;     /* Höhe wird automatisch berechnet, um das Seitenverhältnis zu erhalten */
     display: block;   /* Entfernt unerwünschte Abstände bei `inline`-Elementen */
     margin: 0 auto;   /* Zentriert das Bild horizontal */
