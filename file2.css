@@ -30,20 +30,28 @@ body, a {
   color: black;
 }
 
+.sketches {
+    width: 120%; /* Container vergrößern */
+    max-width: 1200px;
+    margin: 0 auto; /* Zentriert den Container */
+    text-align: center;
+}
+
 img {
-    max-width: 100%;  /* Bild passt sich an 90% der Breite des Containers an */
-    height: auto;     /* Höhe wird automatisch berechnet, um das Seitenverhältnis zu erhalten */
-    display: block;   /* Entfernt unerwünschte Abstände bei `inline`-Elementen */
-    margin: 0 auto;   /* Zentriert das Bild horizontal */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .big {
-    width: 120%; /* Macht das Bild größer */
+    max-width: 120%;
 }
 
 .small {
-    max-width: 50%; /* Macht das Bild kleiner */
+    max-width: 50%;
 }
+
 
 
 a {
