@@ -38,7 +38,7 @@ img {
 }
 
 .big {
-    max-width: 120%; /* Macht das Bild größer */
+    width: 120%; /* Macht das Bild größer */
 }
 
 .small {
