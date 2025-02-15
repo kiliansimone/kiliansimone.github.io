@@ -33,8 +33,11 @@ body, a {
 .sketches {
     width: 120%; /* Container vergrößern */
     max-width: 1200px;
-    margin: 0 auto; /* Zentriert den Container */
+    /* margin: 0 auto; /* Zentriert den Container */
     /* text-align: center; */
+   margin-left: 0; /* Links bündig */
+    margin-right: auto; /* Stellt sicher, dass das Bild nicht zentriert wird */
+}
 }
 
 img {
