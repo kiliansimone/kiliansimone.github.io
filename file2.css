@@ -31,33 +31,33 @@ body, a {
 }
 
 .sketches {
-    width: 120%; /* Container vergrößern */
-    max-width: 1200px;
-    /* margin: 0 auto; */ /* Zentriert den Container */
+    width: 100%; /* Container nimmt die volle Breite ein */
+    max-width: 1200px; /* Begrenzung der maximalen Breite */
+    /* margin: 0 auto; */ /* Falls du eine Zentrierung möchtest, entferne die Kommentarzeichen */
     /* text-align: center; */
-   margin-left: 0; /* Links bündig */
-    margin-right: auto; /* Stellt sicher, dass das Bild nicht zentriert wird */
+    margin-left: 0; /* Links bündig */
+    margin-right: auto; /* Falls der Container zentriert sein soll, entferne dies */
 }
-
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
-   /* margin: 0 auto; */
-      margin-left: 0; /* Links bündig */
-    margin-right: auto; /* Stellt sicher, dass das Bild nicht zentriert wird */
+    /* margin: 0 auto; */
+    margin-left: 0; /* Links bündig */
+    margin-right: auto; /* Falls du zentrieren möchtest, entferne dies */
 }
 
 .big {
-    max-width: 120%;
-  /*float: left;*/
+    width: 120%; /* Falls du wirklich größere Bilder willst, verwende 'width' statt 'max-width' */
+    /* float: left; */ /* Falls Bilder nebeneinander stehen sollen */
 }
 
 .small {
-    max-width: 55%;
- /* float: left; */
+    width: 55%; /* Falls das Bild kleiner sein soll, besser 'width' statt 'max-width' */
+    /* float: left; */
 }
+
 
 
 
