@@ -59,6 +59,14 @@ img {
     /*max-width: 600px; /* Optional: Begrenzung */
 }
 
+/* Bilder, die links ausgerichtet sein sollen */
+.leftMedium {
+  width: 80%;
+    margin-left: 0; /* Links bündig */
+    margin-right: auto; /* Stellt sicher, dass es nicht zentriert wird */
+    text-align: left;
+}
+
 
 
 
