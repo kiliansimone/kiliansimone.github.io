@@ -33,30 +33,27 @@ body, a {
 .sketches {
     width: 100%; /* Container nimmt die volle Breite ein */
     max-width: 1200px; /* Begrenzung der maximalen Breite */
-    margin: 0 auto;  /* Falls du eine Zentrierung möchtest, entferne die Kommentarzeichen */
-    text-align: center; 
-    /*margin-left: 0;  Links bündig */
-    /*margin-right: auto; /* Falls der Container zentriert sein soll, entferne dies */
+    margin: 0 auto;  /* Zentriert den Container */
+    text-align: center; /* Funktioniert nur für Inline-Elemente, aber bleibt für Sicherheit */
 }
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    /* margin: 0 auto; */
-    /* margin-left: 0;  Links bündig */
-    /* margin-right: auto;  Falls du zentrieren möchtest, entferne dies */
+    margin: 0 auto; /* Dadurch werden die Bilder wirklich zentriert */
 }
 
 .big {
-    width: 120%; /* Falls du wirklich größere Bilder willst, verwende 'width' statt 'max-width' */
-    /* float: left; */ /* Falls Bilder nebeneinander stehen sollen */
+    width: 120%; /* verwende 'width' statt 'max-width' */
+    /*max-width: 1200px; /* Sicherstellen, dass es nicht unendlich groß wird */
 }
 
 .small {
-    width: 50%; /* Falls das Bild kleiner sein soll, besser 'width' statt 'max-width' */
-    /* float: left; */
+    width: 50%; 
+    /*max-width: 600px; /* Optional: Begrenzung */
 }
+
 
 
 
