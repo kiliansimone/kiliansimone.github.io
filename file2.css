@@ -87,12 +87,12 @@ h1 {
 }
 
 #introduction {
-  width: 25em;
+  width: 30em;
   max-width: 85%;
 }
 
 #work {
-  margin-top: 28vh;
+  margin-top: 25vh;
   line-height: 145%;
   /* color: #999; */
   color: rgba(0, 0, 0, 0.9);
