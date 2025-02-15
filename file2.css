@@ -54,7 +54,7 @@ img {
 }
 
 .small {
-    width: 55%; /* Falls das Bild kleiner sein soll, besser 'width' statt 'max-width' */
+    width: 30%; /* Falls das Bild kleiner sein soll, besser 'width' statt 'max-width' */
     /* float: left; */
 }
 
