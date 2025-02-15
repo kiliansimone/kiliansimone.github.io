@@ -93,6 +93,7 @@ h1 {
 #work {
   margin-top: 50vh;
   line-height: 145%;
+  color: #222;
 }
 
 #work p {
@@ -181,10 +182,10 @@ h1 {
   }
 
   .low {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.3);
   }
 
   #imprint a {
-    color: rgba(255, 255, 255, 0.4) !important;
+    color: rgba(255, 255, 255, 0.3) !important;
   }
 }
