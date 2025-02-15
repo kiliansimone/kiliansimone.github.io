@@ -181,10 +181,10 @@ h1 {
   }
 
   .low {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.4);
   }
 
   #imprint a {
-    color: rgba(255, 255, 255, 0.3) !important;
+    color: rgba(255, 255, 255, 0.4) !important;
   }
 }
