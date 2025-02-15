@@ -41,17 +41,19 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+   /* margin: 0 auto; */
+      margin-left: 0; /* Links bündig */
+    margin-right: auto; /* Stellt sicher, dass das Bild nicht zentriert wird */
 }
 
 .big {
     max-width: 120%;
-  float: left;
+  /*float: left;*/
 }
 
 .small {
     max-width: 75%;
-  float: left;
+ /* float: left; */
 }
 
 
