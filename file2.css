@@ -49,6 +49,11 @@ img {
     /*max-width: 1200px; /* Sicherstellen, dass es nicht unendlich groß wird */
 }
 
+.medium {
+    width: 80%; /* verwende 'width' statt 'max-width' */
+    /*max-width: 1200px; /* Sicherstellen, dass es nicht unendlich groß wird */
+}
+
 .small {
     width: 55%; 
     /*max-width: 600px; /* Optional: Begrenzung */
