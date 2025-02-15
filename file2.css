@@ -30,6 +30,14 @@ body, a {
   color: black;
 }
 
+img {
+    max-width: 100%;  /* Bild passt sich der Breite des Containers an */
+    height: auto;     /* Höhe wird automatisch berechnet, um das Seitenverhältnis zu erhalten */
+    display: block;   /* Entfernt unerwünschte Abstände bei `inline`-Elementen */
+    margin: 0 auto;   /* Zentriert das Bild horizontal */
+}
+
+
 a {
   text-decoration: underline;
   -webkit-transition: color 0.3s;
