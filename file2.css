@@ -51,7 +51,7 @@ a:visited {
 
 .low {
   /* color: #a5a5a5; /* Etwas heller als #949494 */
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.45);
 }
 
 #introduction a:visited {
@@ -92,10 +92,10 @@ h1 {
 }
 
 #work {
-  margin-top: 35vh;
+  margin-top: 30vh;
   line-height: 145%;
   /* color: #999; */
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 #work p {
