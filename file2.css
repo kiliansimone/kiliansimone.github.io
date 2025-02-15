@@ -62,6 +62,7 @@ img {
 /* Bilder, die links ausgerichtet sein sollen */
 .leftMedium {
   width: 80%;
+  max-width: 1200px;
     margin-left: 0; /* Links bündig */
     margin-right: auto; /* Stellt sicher, dass es nicht zentriert wird */
     text-align: left;
