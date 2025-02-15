@@ -45,7 +45,7 @@ img {
 }
 
 .big {
-    width: 120%; /* verwende 'width' statt 'max-width' */
+    width: 100%; /* verwende 'width' statt 'max-width' */
     /*max-width: 1200px; /* Sicherstellen, dass es nicht unendlich groß wird */
 }
 
